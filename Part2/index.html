@@ -8,11 +8,19 @@
   </head>
 <body>
   <header><h1>Poker Cards</h1></header>
-    <main>
-        <section><span>A</span><span>♦</span><span>A</span></section>
-        <section><span>A</span><span>♣</span><span>A</span></section>
-        <section><span>A</span><span>♥</span><span>A</span></section>
-        <section><span>A</span><span>♠</span><span>A</span></section>
+  
+  <main>
+        
+    <input  id ="idInput" placeholder = "Set ID"></input>
+    <input id =colorInput placeholder = "Set Color"></input>
+    <button id = btn onclick = setCard()></button>
+    <section class = "myForm"  id =  diamonds><span>A</span><span>♦</span><span>A</span></section>
+    <section class = "myForm"  id = clubs><span>A</span><span>♣</span><span>A</span></section>
+    <section class = "myForm" id = hearts><span>A</span><span>♥</span><span>A</span></section>
+    <section class = "myForm" id = spades><span>A</span><span>♠</span><span>A</span></section>
+      <input   onclick = "reset()" type=reset></input>
+    
     </main>
+    <script src = "index.js"></script>
 </body>
 </html>
